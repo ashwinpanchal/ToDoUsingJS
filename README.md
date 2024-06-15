@@ -47,3 +47,8 @@ PORT=3000
 
 - First lets make a `controller` folder and inside it make a `todo-controller.js`
 - Make different controllers in it
+
+### Commit 8 : Routes
+
+- Same make the routes folder and make the routes
+- make the respective routers and add them in the `index.js` file in rootDir

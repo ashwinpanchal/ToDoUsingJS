@@ -2,6 +2,7 @@ const express = require("express");
 
 const { mongoConnect } = require("./config/dbConfig");
 const { PORT } = require("./config/serverConfig");
+const { appRouter } = require("./routes");
 
 const setupAndStartServer = async () => {
   const app = express();
@@ -9,6 +10,8 @@ const setupAndStartServer = async () => {
 
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+
+  app.use("/api", appRouter);
 
   await mongoConnect();
 

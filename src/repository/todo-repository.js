@@ -4,7 +4,6 @@ class TodoRepository {
   async create(data) {
     try {
       const todo = Todo.create(data);
-      await todo.save();
       return todo;
     } catch (error) {
       console.log("Someting went wrong at repository layer");
@@ -47,6 +46,7 @@ class TodoRepository {
       const updatedTodo = await Todo.findByIdAndUpdate(id, data, {
         new: true,
       });
+
       return updatedTodo;
     } catch (error) {
       console.log("Someting went wrong at repository layer");

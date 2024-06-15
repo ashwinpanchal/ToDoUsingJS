@@ -27,3 +27,8 @@ PORT=3000
 
 - the command line code may not work in windows like the touch command and all
 - We use dotenv package to configure this process variable `npm i dotenv`and make the `serverConfig.js` file and we how its configured
+
+### Commit 4 : Models
+
+- In the models we make the schema for our resources for each resources we have one file
+- make the `Todo.js` file inside the models make the schema and model for the Todo

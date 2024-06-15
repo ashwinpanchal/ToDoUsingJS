@@ -42,3 +42,8 @@ PORT=3000
 
 - First lets make a `service` folder and inside it make a `todo-service.js`
 - `todo-service` will have all the business logic but since this is a small application the todo service might appear unnecessary as of now and only a copy of `todo-repository`
+
+### Commit 7 : Controller
+
+- First lets make a `controller` folder and inside it make a `todo-controller.js`
+- Make different controllers in it

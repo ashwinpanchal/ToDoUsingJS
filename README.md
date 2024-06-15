@@ -1,5 +1,24 @@
 # Steps
 
+### To Run
+
+- git clone this repo
+- inside the rootDir run the following command
+
+```
+npm install
+```
+
+- make a `.env` file in the rootDir
+- the content of `.env` are :
+
+```
+PORT=3000
+```
+
+- make sure mongo is installed on your pc
+- `npm start`
+
 ### Commit 1 : Basic Project Setup
 
 - `npm init -y` to make the package.json file
@@ -52,3 +71,13 @@ PORT=3000
 
 - Same make the routes folder and make the routes
 - make the respective routers and add them in the `index.js` file in rootDir
+
+### Routes
+
+- to test the routes in the post man
+
+- GET : localhost:3000/api/v1/todos -> all todos
+- GET : localhost:3000/api/v1/todos/:id -> todo with id : id
+- POST : localhost:3000/api/v1/todos -> create a todo (pass the todo in the body)
+- DELETE : localhost:3000/api/v1/todos/:id -> delete the todo with id : id
+- PUT : localhost:3000/api/v1/todos/:id -> update the todo with id : id (updated todo in body)

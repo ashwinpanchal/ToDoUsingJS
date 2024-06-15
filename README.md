@@ -9,3 +9,13 @@
 - `git init` to initialize git and make a .gitignore by `touch gitignore`
 - add `node_modules` in `.gitignore` to exclude it from git add
 - adding the `start` script in the package.json to run the project with `npm start`
+
+### Commit 2 : Database Integration
+
+- Make a `config` folder in the src this will contain the configs file as the name suggest and inside it make a `dbConfig.js` in it
+- Now we will require the mongoose package `npm i mongoose`
+
+<!-- ### Commit 3 : serverConfig
+
+- All important info like the port number or some user and password are not hardcoded in our application we initialize them inside the environment variables
+- make a ` -->

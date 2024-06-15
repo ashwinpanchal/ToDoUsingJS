@@ -15,7 +15,15 @@
 - Make a `config` folder in the src this will contain the configs file as the name suggest and inside it make a `dbConfig.js` in it
 - Now we will require the mongoose package `npm i mongoose`
 
-<!-- ### Commit 3 : serverConfig
+### Commit 3 : serverConfig
 
 - All important info like the port number or some user and password are not hardcoded in our application we initialize them inside the environment variables
-- make a ` -->
+- make a `.env` file in the root directory by `touch .env`, put it in `.gitignore`
+- the content of `.env` are :
+
+```
+PORT=3000
+```
+
+- the command line code may not work in windows like the touch command and all
+- We use dotenv package to configure this process variable `npm i dotenv`and make the `serverConfig.js` file and we how its configured

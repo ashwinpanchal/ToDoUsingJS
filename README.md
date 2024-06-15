@@ -32,3 +32,8 @@ PORT=3000
 
 - In the models we make the schema for our resources for each resources we have one file
 - make the `Todo.js` file inside the models make the schema and model for the Todo
+
+### Commit 5 : Repository
+
+- The repository layer will interact with the database directly
+- We have to make a class `TodoRepository` which does the basic CRUD functionality on the Todo in mongo

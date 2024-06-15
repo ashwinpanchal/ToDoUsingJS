@@ -37,3 +37,8 @@ PORT=3000
 
 - The repository layer will interact with the database directly
 - We have to make a class `TodoRepository` which does the basic CRUD functionality on the Todo in mongo
+
+### Commit 6 : Service
+
+- First lets make a `service` folder and inside it make a `todo-service.js`
+- `todo-service` will have all the business logic but since this is a small application the todo service might appear unnecessary as of now and only a copy of `todo-repository`
